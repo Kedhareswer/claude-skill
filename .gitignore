@@ -6,3 +6,4 @@ tmp/
 Thumbs.db
 claude-bridge.config.json
 install-manifest.json
+demo/
