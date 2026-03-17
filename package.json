@@ -1,0 +1,17 @@
+{
+  "name": "claude-skill",
+  "version": "1.0.0",
+  "description": "Codex-native prompt pack and helper CLI for invoking Claude Code workflows.",
+  "type": "module",
+  "bin": {
+    "claude-bridge": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "install:local": "node ./src/install.js",
+    "smoke": "node ./scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

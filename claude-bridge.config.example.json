@@ -1,0 +1,19 @@
+{
+  "defaults": {
+    "model": "claude-sonnet-4-6",
+    "effort": "medium",
+    "outputFormat": "text"
+  },
+  "commands": {
+    "spec": {
+      "effort": "high"
+    },
+    "review": {
+      "effort": "high"
+    },
+    "exec": {
+      "permissionMode": "acceptEdits",
+      "allowedTools": ["Read", "Edit", "Bash"]
+    }
+  }
+}
